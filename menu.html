@@ -10,11 +10,17 @@
     <link rel="shortcut icon" href="Images/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png" />
     <link rel="manifest" href="Images/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
     <header>
-        <h1>Journies Java</h1>
-        <img src="Images/logo.svg" alt="Logo">
+        <div class="header-container">
+            <h1>Journies Java</h1>
+            <img src="Images/logo.svg" alt="Logo">
+        </div>
         <nav>
             <a href="about.html">ABOUT</a>
             <a href="menu.html">MENU</a>
@@ -23,41 +29,6 @@
         </nav>
     </header>
     <main>
-    <section id="bakery">
-        <h2>BAKERY</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Morning Buns</td>
-                    <td>$4.00</td>
-                </tr>
-                <tr>
-                    <td>Muffins</td>
-                    <td>$3.00</td>
-                </tr>
-                <tr>
-                    <td>Cinnamon Rolls</td>
-                    <td>$5.00</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section id="extras">
-        <h2>EXTRAS +$1.00</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Cold Foam</td>
-                </tr>
-                <tr>
-                    <td>Extra Shot of Espresso</td>
-                </tr>
-                <tr>
-                    <td>Oat/Almond/Whole Milk</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
     <section id="menu">
         <h2>MENU</h2>
         <table>
@@ -65,7 +36,7 @@
                 <tr>
                     <th>Coffee</th>
                     <th>12oz</th>
-                    <th>160z</th>
+                    <th>16oz</th>
                 </tr>
             </thead>
             <tbody>
@@ -107,12 +78,47 @@
             </tbody>
         </table>
     </section>
+    <section id="bakery">
+        <h2>BAKERY</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Morning Buns</td>
+                    <td>$4.00</td>
+                </tr>
+                <tr>
+                    <td>Muffins</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Cinnamon Rolls</td>
+                    <td>$5.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="extras">
+        <h2>EXTRAS +$1.00</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Cold Foam</td>
+                </tr>
+                <tr>
+                    <td>Extra Shot of Espresso</td>
+                </tr>
+                <tr>
+                    <td>Oat/Almond/Whole Milk</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <section id="syrups">
         <h2>SYRUPS +$1.00</h2>
         <ul>
             <li><strong>Classic</strong> Vanilla, Salted Caramel, Caramel, Hazelnut, Mocha, Almond, Brown Sugar, Cookie Butter</li>
             <li><strong>Sugar-Free</strong> Vanilla, Caramel, Hazelnut</li>
-            <li><strong>Seasonal</strong>Pumpkin Spice, Peppermint, Maple, Cinnamon, Toasted Marshmallow, Sugar Cookie, Gingerbread</li>
+            <li><strong>Seasonal</strong> Pumpkin Spice, Peppermint, Maple, Cinnamon, Toasted Marshmallow, Sugar Cookie, Gingerbread</li>
         </ul>
     </section>
     </main>

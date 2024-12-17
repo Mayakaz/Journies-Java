@@ -1,0 +1,134 @@
+body{
+    font-family:"Open Sans", sans-serif;
+    background-color: #E1DAD6;
+    text-align: center;
+}
+h1{
+    font-family:"Parisienne", cursive;
+}
+h2{
+    font-family:"Playfair Display", serif ;
+    font-weight: bold;
+    font-size: 2rem;
+}
+header{
+    background-color:#cbb4a8;
+    text-align: center;
+    padding: 1rem;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+header img{
+    width: 7rem;
+    margin-bottom: 10px;
+}
+header nav a{
+    text-decoration: none;
+    font-family:"Playfair Display", serif ;
+    font-weight: bold;
+    color: black;
+    background-color:#907869;
+    padding: 10px 15px;
+    margin: 7px;
+    display: inline-block;
+    border-radius: 6px;
+}
+header nav a:hover{
+    color: #fff;
+}
+.our-story{
+    background-color:#868668 ;
+    padding: 0.25rem 1rem;
+    margin: 1rem auto;
+    max-width: 100%;
+    text-align: start;
+}
+.our-story h2{
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    text-align: center;
+}
+.our-story p{
+    margin-bottom: 1rem;
+}
+footer{ 
+    background-color:#cbb4a8;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    display: flex;
+}
+footer p{
+    font-family: "Playfair Display", serif;
+    margin: 0.5rem;
+    background-color: #907869;
+    padding: 1.25rem;
+    border-radius: 6px;
+}
+.border img{
+    margin: 5rem;
+    width: 22rem;
+    max-width: 100%;
+    border: 10px solid #BF6C3C;
+    margin: 1rem auto;
+    display: block;
+}
+#about h2{
+    text-align: center;
+}
+#about{
+    background-color: #907869;
+    padding: 0.5rem 1rem;
+    margin: 2rem 3rem;
+    text-align: start;
+}
+#hours, #location{
+    display: inline-block;
+    background-color: #907869;
+    margin: 8px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    width: 32%;
+    text-align:start;
+}
+#bakery, #extras, #menu, #syrups{
+    background-color: #907869;
+    text-align: left;
+    margin: 2rem;
+    padding: 0 0.5rem;
+}
+table{
+    width: 100%;
+}
+table th, table td{
+    padding: 8px 5px;
+
+}
+table thead th{
+    font-weight: bold;
+}
+#syrups ul{
+    text-align: left;
+}
+#contact-info h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 45px 25px;
+    background-color: #868668;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+#community-events, #events-here, #involved-info{
+    background-color: #907869;
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+}
+#community-events p, #events-here p{
+    font-size: 1rem;
+}
